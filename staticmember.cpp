@@ -12,3 +12,10 @@ public:
     //deklarasi prosedur setID() dan printAll()
     void setID();
     void printAll();
+
+    //pembuatan constructor Mahasiswa dengan parameter pnama
+    //member initialize list
+    Mahasiswa(string pnama) :nama(pnama) {
+        setID();
+    }
+};
