@@ -46,3 +46,9 @@ int main() {
     Mahasiswa mhs1("Sri Dadi");
     Mahasiswa::setNim(10);
     Mahasiswa mhs2("Budi Jatmiko");
+
+    //memberi nilai pada setNim() untuk merubah nilai NIM
+    // Mahasiswa::setNim(9);
+
+    Mahasiswa mhs3("Andi Janu");
+    Mahasiswa mhs4("Joko Wahono");
