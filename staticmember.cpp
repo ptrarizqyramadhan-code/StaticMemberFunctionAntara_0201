@@ -22,3 +22,8 @@ public:
 
 //memberi value ke variabel nim dari class mahasiswa
 int Mahasiswa::nim = 5;
+
+//mengimplementasikan prosedur - prosedur di luar class
+void Mahasiswa::setID() {
+    id = ++nim;
+};
